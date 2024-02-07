@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    font-family: gilroy;
+}
+
+
+img{
+   filter: drop-shadow(90px 30px 60px   black);
+   background-size: cover;
+   height: 45vw;
+   position: absolute;
+   left: 25%;
+   top: 5%;
+}
+
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#73A536, #377134) ;
+    padding: 20px 40px;
+}
+
+
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav h2{
+    font-size: 1.8vw;
+    font-weight:800;
+    color: white;
+}
+
+#nav h2 span{
+    font-weight: 400;
+}
+
+#nav2{
+    margin-right: 100px;
+    display: flex;
+    gap: 4vw;
+}
+
+#nav2 a{
+    font-size: 1.2vw;  ;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+#nav3 i{
+    font-size: 30px;
+    color: white;
+}
+
+h1{
+    position: absolute;
+    bottom: 0;
+    transform: translate(1%, 0);
+    color: white;
+    font-size: 17.3vw;
+    font-weight: 800;
+}
+
+
+
+#content{
+    position: absolute;
+    color: white;
+    top: 25%;
+    height: 350px;
+    width: 450px;
+    /* background-color: darkgray; */
+}
+
+h4{
+    font-size: 3vw;
+    margin-left: 13vw;
+    margin-bottom: .8vw;
+}
+
+h4 span{
+    font-size: 1.5vw;
+}
+
+h3{
+    font-size: 5vw;
+    line-height: .85;
+}
+
+p{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 2vw;
+    padding: 15px 40px;
+    background-color: #4D8434;
+    color: white;
+    border: 2px solid white;
+    font-weight: 700;
+    cursor: grab;
+}
+
